@@ -1,0 +1,92 @@
+/* Hero Section adjustments */
+.hero {
+  background-color: black;
+  height: 100vh;
+  min-height: 400px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 550px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 60vh;
+  }
+}
+
+.clip_banner {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Hero text adjustments */
+.hero_para {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .hero_para {
+    font-size: 48px; /* Larger font size for tablets and up */
+  }
+}
+
+.responsive {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+  .hero_para {
+    font-size: 26px;
+  }
+  .hero {
+    height: 350px;
+  }
+  .responsive {
+    display: none;
+  }
+}
+
+/* Paragraph adjustments */
+.small_para {
+  max-width: 100%;
+  font-size: 14px; /* Default font size for mobile */
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .small-para {
+    font-size: 16px; /* Larger font size for tablets and up */
+    max-width: 100%;
+  }
+}
+
+/* Image adjustments */
+.p_img {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .p_img {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+
+.blinking {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

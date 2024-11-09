@@ -1,0 +1,89 @@
+.clip_banner {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  padding: 0.5rem 0 4rem 0;
+}
+
+/* Project container and buttons styling */
+.project_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  transition: transform 0.5s ease;
+}
+
+.projects.move_left {
+  transform: translateX(-100px); /* Adjusted for smaller screens */
+}
+
+.project_details {
+  transition: transform 0.5s ease;
+}
+
+.project_details.move_right {
+  transform: translateX(100px); /* Adjusted for smaller screens */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .projects_heading{
+    font-size: 24px;
+  }
+  .project_container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+  .project_details {
+    width: 90%; /* Adjust the width for tablet or smaller screens */
+    padding-bottom: 40px;
+
+  }
+  .projects {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  /* Reduce translation distance on smaller screens */
+  .projects.move_left {
+    transform: translateX(-50px);
+  }
+
+  .project_details.move_right {
+    transform: translateX(50px);
+  }
+
+  .clip_banner {
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+  .clip_banner {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    padding: 0.5rem;
+  }
+
+  .projects {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .project_details {
+    width: 100%; /* Further adjust for mobile screens */
+    margin: auto;
+  }
+
+  .projects.move_left, .project_details.move_right {
+    transform: translateX(0); /* No sliding effect on very small screens */
+  }
+}

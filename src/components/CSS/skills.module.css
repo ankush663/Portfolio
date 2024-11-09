@@ -1,0 +1,36 @@
+/* skills  */
+.clip_banner {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.skills{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .skills_heading{
+    font-size: 24px;
+  }
+  .skills {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.individual{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.individual p{
+  margin-top: 20px;
+  font-size: 24px; 
+}
