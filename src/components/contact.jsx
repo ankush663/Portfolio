@@ -30,14 +30,27 @@ const Contact = () => {
       <div class="social-media-container flex justify-center mt-10">
         <div class="social-media-links flex bg-blue-500 py-2 px-4 cursor-pointer">
           <p class="text-white">Social Media Links</p>
-          <img src="images/right-arrow.png" class="w-6 ml-2" alt="arrow" />
+          <img src="images/right-arrow.png" className="w-6 ml-2" alt="arrow" />
         </div>
 
-        <div class="icons flex items-center bg-blue-500 py-2 px-4 ml-2">
-          <img src="images/instagram.png" class="h-5" alt="Instagram" />
-          <img src="images/linkedin.png" class="h-5 ml-5" alt="LinkedIn" />
-          <img src="images/github.png" class="h-5 ml-5" alt="GitHub" />
-          <img src="images/facebook.png" class="h-5 ml-5" alt="Facebook" />
+        <div class="icons flex items-center bg-blue-500 py-2 px-4 ml-2 gap-5">
+
+        <a href="https://www.instagram.com/ankushthakur142/" target="_blank" rel="noopener noreferrer">
+          <img src="images/instagram.png" className="h-5" alt="Instagram" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/ankush-thakur-221670235/" target="_blank" rel="noopener noreferrer">
+          <img src="images/linkedin.png" className="h-5" alt="LinkedIn" />
+        </a>
+
+        <a href="https://github.com/ankush663?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <img src="images/github.png" className="h-5" alt="Github" />
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100031029759659" target="_blank" rel="noopener noreferrer">
+          <img src="images/facebook.png" className="h-5" alt="Facebook" />
+        </a>
+
         </div>
       </div>
     </div>

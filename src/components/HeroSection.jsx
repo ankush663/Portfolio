@@ -39,7 +39,8 @@ const HeroSection = () => {
             Step into the world of website development, where innovative ideas come to life and digital experiences are crafted to engage and inspire!
           </p>
 
-          <button className="text-white bg-blue-500 py-2 px-4 mt-10 rounded-md">My Resume</button>
+          <button className="text-white bg-blue-500 py-2 px-4 mt-10 rounded-md">
+            <a href="https://drive.google.com/file/d/1W4ifqMxw4NioPW790j2Pd46yOu-bDuuE/view?usp=drive_link">My Resume</a></button>
         </div>
 
         <div className={`${styles.p_img}`}>

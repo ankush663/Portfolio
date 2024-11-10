@@ -15,7 +15,9 @@ const Diploma = () => {
       </h2>
       <h4 className="mt-4 text-white">Marks:- 75%</h4>
       <button className="text-white bg-blue-500 py-2 px-2 mt-4">
+        <a href="https://drive.google.com/file/d/1aUybFLNxvpvehIXa1VwXu_meE1Nwql3v/view?usp=drive_link">
         Link to My Marksheet
+        </a>
       </button>
     </div>
   );

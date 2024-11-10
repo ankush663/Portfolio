@@ -4,7 +4,13 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
+.all_skills{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
 .skills{
   height: 120px;
   width: 120px;
@@ -12,17 +18,6 @@
   border: 2px solid white;
   object-fit: contain;
 }
-
-@media (max-width: 768px) {
-  .skills_heading{
-    font-size: 24px;
-  }
-  .skills {
-    height: 50px;
-    width: 50px;
-  }
-}
-
 .individual{
   display: flex;
   flex-direction: column;
@@ -34,3 +29,18 @@
   margin-top: 20px;
   font-size: 24px; 
 }
+
+@media (max-width: 768px) {
+  .skills_heading{
+    font-size: 24px;
+  }
+  .skills {
+    height: 50px;
+    width: 50px;
+  }
+  .individual p{
+    font-size: 20px;
+  }
+}
+
+
