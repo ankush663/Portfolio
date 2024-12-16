@@ -40,7 +40,7 @@ const HeroSection = () => {
           </p>
 
           <button className="text-white bg-blue-500 py-2 px-4 mt-10 rounded-md">
-            <a href="https://drive.google.com/file/d/1W4ifqMxw4NioPW790j2Pd46yOu-bDuuE/view?usp=drive_link">My Resume</a></button>
+            <a href="https://drive.google.com/file/d/1KzF_txuG8VTeePCDxDg1AqENRLb9rCDz/view?usp=drive_link">My Resume</a></button>
         </div>
 
         <div className={`${styles.p_img}`}>

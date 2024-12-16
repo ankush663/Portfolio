@@ -34,7 +34,7 @@ const Navigation = () => {
         </ul>
 
         <button className="hidden md:block ml-8 text-white bg-blue-500 py-2 px-4 rounded">
-         <a href="https://drive.google.com/file/d/1W4ifqMxw4NioPW790j2Pd46yOu-bDuuE/view?usp=drive_link">My Resume</a>
+         <a href="https://drive.google.com/file/d/1KzF_txuG8VTeePCDxDg1AqENRLb9rCDz/view?usp=drive_link">My Resume</a>
         </button>
 
         {/* Mobile Hamburger Icon */}
